@@ -1,0 +1,1368 @@
+@charset "utf-8";
+body{
+    background-color: #f5f5f7;
+
+}
+#wrap{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-color: #f5f5f7;
+}
+/* 모바일 width 375px */
+#header{
+    height: 48px;
+    background-color: #f2f2f2;
+}
+.blur{
+    filter: blur(30px);
+    -webkit-filter: blur(30px);
+} 
+.headIn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.iconMenu a{
+    color: #222;
+}
+.logo {
+    width: 48px;
+}
+.logo img{
+    width: 100%;
+    height: auto;
+}
+.menu{
+    display: none;
+}
+.topBn{
+    padding-bottom: 11vw;
+    position: relative;
+    width: 100%;   
+}
+.svList{
+    display: flex;
+    padding: 0 0 50px 0;
+}
+.svList:first-child{
+    padding-bottom: 12px;
+}
+.svImg.img1{
+    width: 35px;
+    padding: 0 8px 0 0;
+}
+.svImg.img2{
+    padding: 0 8px 0 10px;
+}
+.svTxt{
+    line-height: 1.7em;
+    font-weight: 600;
+    font-size: 13px;
+    color: #222;
+}
+.svTxt a{
+    font-weight: 300;
+    color: #0066cc;
+}
+.svImg img{
+    width: 100%;
+    height: auto;
+}
+
+.BnIn{
+    width: 100%;
+}
+.bnTitle{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.4em;
+    padding: 52px 21px 22px 21px;
+}
+.service{
+    padding: 0 21px;
+}
+.icM_in > ul{
+    display: flex;
+    justify-content: space-between;
+}
+.icM_in > ul > li{
+    
+}
+.icM_in > ul > li > div{
+    width: 48px;
+    
+}
+.iconMenu .depth2{
+    display: none;
+}
+.BntxtPc{
+    display: none;
+}
+.Bntxt{
+    width: 100%;
+}
+.BntxtMo{
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10vw 0 0 27vw;
+}
+.BntxtMo p{
+    font-size: 6.5vw;
+    line-height: 1.5em;
+    font-weight: bold;
+}
+.Bntxt span{
+    margin-left: 35px;
+}
+.bnCard{
+    overflow: hidden;
+    padding: 0 21px 22px 21px;
+}
+.cardList{
+    width: 260%;
+}
+.cardList ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.cardList li {
+    width: 10.3%;
+    text-align: center;
+}
+.cardList a{
+    font-weight: 600;
+    color: #222;
+    line-height: 1.5em;
+    font-size: 4vw;
+}
+.cardImg img{
+    width: 100%;
+    height: auto;
+    padding-bottom: 12px;
+}
+.Title{
+    font-size: 21px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    line-height: 1.5em;
+}
+.red{
+    color: #e30000;
+}
+
+.m1card, .m2card{
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.m1photo{
+    width: 309px;
+    height: 450px;
+}
+.m1photo img{
+    width: auto;
+    height: 100%;
+    margin-left: -62px;
+}
+.m1List .slick-slide{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.m1Txt{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.m1new{
+    font-size: 12px;
+    font-weight: 800;
+    color: #555;
+    padding-bottom: 10px;
+}
+.name{
+    font-size: 21px;
+    color: #222;
+    line-height: 1.5em;
+    font-weight: 600;
+}
+.txt1{
+    font-size: 5.5vw;
+    font-weight: 600;
+    color: #222;
+    line-height: 1.5em;
+}
+.btns{
+    display: none;
+}
+.m1In{
+    position: relative;
+}
+.btns button{
+    position: absolute;
+    background-color: rgba(119, 119, 119, 0.1);
+    border-radius: 50%;
+    text-align: center;
+    padding: 20px;
+    top: 200px;
+}
+.prev i, .next i{
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-top:3px solid #fff;
+    border-right:3px solid #fff;
+    color: transparent;
+    margin: 0 auto;
+}
+.prev{
+    left: 0;
+}
+.prev i{
+    transform: rotate(-135deg);
+}
+.next {
+    right: 0px;
+}
+.next i{
+    transform: rotate(45deg);
+}
+.price{
+    font-size: 17px;
+    color: #222;
+    line-height: 1.5em;
+}
+.whiteTxt .m1Txt div{
+    color: #fff;
+}
+.m2List .slick-slide{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.first{
+    width: 355px;
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+}
+.first .fPhoto{
+    margin-top: 75px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.first img{
+    width: 100%;
+    height: auto;
+}
+.m2Txt{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 20px 20px;
+}
+.m2card{
+    width: 309px;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.m2Photo img{
+    padding-top: 100px;
+    margin: 0 auto;
+    width: auto;
+    height: 198px;
+}
+.Title_mini{
+    font-size: 12px;
+    color: red;
+}
+.name{
+    font-size: 17px;
+}
+.price{
+    font-size: 14px;
+}
+.bTxt{
+    font-size: 12px;
+    padding: 4px 15px;
+    background-color: #0066cc;
+    color: #fff;
+    border-radius: 15px;
+}
+.m2buy{
+    padding: 50px 20px 0 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.dots ul{
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+.dots img{
+    width: 12px;
+    height: 12px;
+    padding: 0 3px;
+}
+.itTxt{
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    padding: 0 6vw 6vw 5vw;
+}
+.itname{
+    font-size: 4vw;
+    color: #222;
+    font-weight: 600;
+    line-height: 1.3em;
+}
+.itprice{
+    font-size: 4vw;
+    color: #222;
+    font-weight: 300;
+    line-height: 1.3em;
+}
+.new{
+    color: #BF4800;
+    font-size: 3.5vw;
+    font-weight: 500;
+    line-height: 1.3em;
+}
+.m3List .slick-slide{
+    margin: 0 10px;
+}
+.m3card{
+    width: 309px;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+.main3 .first{
+    position: relative;
+}
+.first .m3photo img{
+    height: 450px;
+    margin: 0 auto;
+}
+.m3photo img{
+    padding-top: 64px;
+    margin: 0 auto;
+}
+.m3Intitle{
+    position: absolute;
+    top: 0;
+    padding: 51px 28px 28px;
+    line-height: 1.5em;
+    font-size: 21px;
+    font-weight: 600;
+    color: #222;
+}
+.m3Txt{
+    padding: 45px 30px 30px 30px;
+}
+.free{
+    font-size: 12px;
+    color: #bf4800;
+}
+.m3Txt .name{
+    padding-top: 5px;
+}
+.m3Txt .price{
+    padding-top: 20px;
+}
+.m4card{
+   position: relative;
+}
+.m4photo, .m5photo{
+    width: 309px;
+    height: 450px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.m4photo img{
+    margin-left: -86px;
+    margin-top: -20px;
+}
+.m4List .slick-slide{
+    margin: 0 10px;
+}
+.tag{
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+}
+.m4t{
+    font-size: 21px;
+    font-weight: 600;
+    color: #fff;
+}
+.black{
+    color: #222;
+}
+.m4txt{
+    position: absolute;
+    font-size: 21px;
+    top: 0;
+    left: 0;
+    line-height: 1.5em;
+    padding: 28px;
+}
+.m4txt2{
+    position: absolute;
+    font-size: 21px;
+    top: 0;
+    left: 0;
+    line-height: 1.5em;
+    color: #222;
+    font-weight: 600;
+}
+.m4t21{
+    font-weight: 600;
+}
+.m4t22{
+    font-size: 17px;
+    line-height: 1.5em;
+}
+.m5List .slick-slide{
+    margin: 0 10px;
+}
+.m5card{
+    position: relative;
+    overflow: hidden;
+    width: 309px;
+    height: 450px;
+    border-radius: 20px;
+}
+.m5photo img{
+    width: 118%;
+    height: auto;
+    margin-left: -28px;
+}
+.m5txt{
+    position: absolute;
+    font-size: 21px;
+    padding: 28px;
+    top: 0;
+    left: 0;
+    line-height: 1.5em;
+}
+.m5t{
+    color: #222;
+    font-weight: 600;
+}
+.white{
+    color: #fff;
+}
+.m5txt .tag{
+    font-size: 12px;
+    color: #777;
+    line-height: 1.5em;
+    font-weight: 600;
+}
+.m1card, .m2card, .m3card, .m4photo, .m5card{
+    box-shadow: 2px 4px 12px rgba(0,0,0,.08);
+}
+.slick-track{
+    padding-bottom: 10px;
+}
+
+.link{
+    padding-bottom: 10vw;
+}
+.linkTitle{
+    font-size: 5.5vw;
+    color: #222;
+    font-weight: 600;
+    padding-left: 4vw;
+    padding-bottom: 8vw;
+}
+.linkList ul{
+    display: flex;
+    padding-left: 1vw;
+    width: 120%;
+}
+.linkList li{
+    padding-left: 3vw;
+}
+.linkList li a{
+    font-size: 4vw;
+    color: #222;
+    padding: 2vw 3.5vw;
+    background-color: #0000000c;
+    border-radius: 6vw;
+    
+}
+.footer{
+    width: 100%;
+}
+.f_in{
+    padding: 0 4vw;
+}
+.f_f1{
+    padding-bottom: 4.3vw;
+    border-bottom: 1px solid #c2c2c2;
+}
+.f_f1 .f_list{
+    font-size: 3.2vw;
+    font-weight: 500;
+    color: #777;
+    line-height: 1.5em;
+}
+.f_list strong{
+    color: #555;
+    font-weight: 600;
+}
+.f_list a{
+    text-decoration: underline;
+    color: #555;
+}
+.f_f2{
+    padding: 4.3vw 0;
+    border-bottom: 1px solid #c2c2c2;
+}
+.f_f2 .appleLink{
+    display: flex;
+
+}
+.f_f2 .appleLink a{
+    padding-right: 3vw;
+}
+.f_f3{
+    padding-top: 4.3vw;
+}
+.tapIt{
+    border-bottom: 1px solid #c2c2c2;
+    padding: 2vw 0;
+}
+h3{
+    font-size: 3.2vw;
+    font-weight: 300;
+    color: #777;
+}
+.tapList{
+    display: none;
+    margin-top: 10px;
+}
+.tapList li a{
+    line-height: 2em;
+    color: #222;
+}
+.f_f{
+    font-size: 3.2vw;
+    padding-top: 3vw;
+}
+.f_f p{
+    padding-bottom: 3vw;
+    line-height: 1.5em;
+    color: #777;
+}
+.f_f ul{
+    display: flex;
+}
+.f_f li a{
+    color: #777;
+    font-size: 2.7vw;
+    font-weight: 500;
+    padding: 0 1vw;
+    border-right: 1px solid #c9c7c7;
+}
+.f_f p a{
+    text-decoration: underline;
+    color: blue;
+}
+/* 태블릿 width 768px*/
+@media screen and (min-width:768px) {
+    #header{
+        height: 48px;
+    }
+    .logo{
+        width: 48px;
+    }
+    .icM_in > ul > li > div{
+        width: 48px;
+        padding-left: 12px;
+    }
+    .BnPhoto .mo, .BnPhoto .pc{
+        display: none;
+    }
+    .BnPhoto .tb{
+        display: block;
+        width: 100%;
+    }
+    .BntxtMo{
+        display: none;
+    }
+    .cardList{
+        width: 100%;
+    }
+    .cardList ul{
+        width: 100%;
+    }
+    .cardList a{
+        font-size: 11px;
+    }
+    .m1photo{
+        width: 480px;
+        height: 500px;
+    }
+    .m1photo img{
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    .m1Txt{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 28px 28px 28px 48px;
+    }
+    .m1Txt.nonew{
+        padding-top: 46px;
+    }
+    .m1new{
+        font-size: 12px;
+        font-weight: 800;
+        color: #555;
+    }
+    .name{
+        font-size: 21px;
+        color: #222;
+        line-height: 1.5em;
+        font-weight: 600;
+    }
+    .price{
+        font-size: 17px;
+        color: #222;
+        line-height: 1.5em;
+    }
+   
+    .Title{
+        font-size: 28px;
+        padding: 10px;
+        padding-left: 20px;
+        line-height: 1em;
+    }
+    
+    .m2card, .m3card{
+        width: 313px;
+        height: 500px;
+    }
+    .first{
+        width: 400px;
+        height: 500px;
+    }
+    .dotBtn{
+        bottom: 0;
+        padding: 2vw 2vw 15vw 8vw;
+    }
+    .dotBtn ul{
+        display: flex;
+        width: 2vw;
+        justify-content: space-between;
+    }
+    .dotBtn li a{
+        display: block;
+        width: 1vw;
+        height: 1vw;
+        background-color: #BF4800;
+        border-radius: 1vw;
+    }
+    .tag, .tag.black, .m5txt .tag{
+        font-size: 12px;
+        
+    }
+
+    .m4photo{
+        width: 480px;
+        height: 500px;
+    }
+    .m4photo img{
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    .m4t, .m5t{
+        font-size: 28px;
+    }
+    .m4txt{
+    
+        line-height: 1.5em;
+    }
+    .m4txt2{
+    
+        font-size: 3vw;
+        line-height: 1.5em;
+    }
+    .m4t22{
+        font-size: 1.8vw;
+        font-weight: 300;
+
+    }
+    .m5card{
+        width: 400px;
+        height: px;
+    }
+    .m5photo{
+        width: 100%;
+    }
+    .m5photo img{
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    .m5txt{
+        line-height: 1.5em;
+        
+    }
+    .topBn, .m1List, .main2, .main3, .main4, .main5{
+        padding-bottom: 7vw;
+    }
+    .link{
+        padding-bottom: 6vw;
+    }
+    .linkTitle{
+        font-size: 3vw;
+        padding-left: 2.5vw;
+        padding-bottom: 4vw;
+    }
+    .linkList ul{
+        width: 100%;
+    }
+    .linkList li{
+        padding-left: 1vw;
+    }
+    .linkList li a{
+        font-size: 1.8vw;
+        padding: 1vw 2vw;
+    }
+    .f_in{
+        padding: 0 2vw;
+    }
+    .f_f1{
+        padding-bottom: 2vw;
+    }
+    .f_f1 .f_list{
+        font-size: 1.5vw;
+    }
+    .f_f2{
+        padding: 2vw 0;
+        border-bottom: 0;
+    }
+    .f_f3{
+        padding-top: 0;
+    }
+    h3{
+        font-size: 1.5vw;
+    }
+    .tapIt{
+        padding: 1vw 0;
+    }
+    .f_f{
+        font-size: 1.5vw;
+        padding-top: 1vw;
+    }
+    .f_f p{
+        padding-bottom: 1vw;
+    }
+    .f_f li a{
+        font-size: 1.5vw;
+    }
+}
+/* pc width 1440px */
+@media screen and (min-width:1440px) {
+    #wrap{
+       position: relative;
+       max-width: 1920px;
+        margin: 0 auto;
+    }
+    #header{
+        position: fixed;
+        top: 0;
+        width: 1920px;
+        max-width: 1920px;
+        height: 44px;
+        z-index: 100;
+    }
+    #header.wh{
+        background-color: #fff;
+    }
+    #footer, .link{
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+    .logo{
+        width: 44px;
+    }
+    
+    .icM_in ul{
+        display: flex;
+    }
+    .icM_in > ul > li .icon{
+        line-height: 44px;
+    }
+    .icM_in > ul > li .icon a{
+        padding-bottom: 23px;
+    }
+    .iconMenu #menutap{
+        display: none;
+    }
+    
+    .iconMenu .depth2{
+        display: none;
+        position: absolute;
+        top: 48px;
+        left: 0;
+        width: 100%;
+        background-color: #ffffff;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .iconMenu .depth2 #search{
+        width: 30px;
+        font-size: 30px;
+    }
+    .iconMenu .depth2 > ul{
+        flex-direction: column;
+        width: 1060px;
+        margin: 0 auto;
+        padding-left: 50px;
+    }
+    .iconMenu .depth2 input{
+        width: 970px;
+        height: 30px;
+        border: none;
+        margin-bottom: 40px;
+    }       
+    .iconMenu .depth3 >li{
+        margin-bottom: 10px;
+        width: 1040px;
+        line-height: 0em;
+        padding: 2px 6px;
+    }
+    .iconMenu .depth3 > li:hover{
+        background-color: #f1f1f16c;
+        border-radius: 8px;
+        line-height: 0em;
+        
+    }
+    .iconMenu .depth3 a{
+        font-size: 11px;
+        color: #222;
+        line-height: 1.5em;
+        font-weight: 900;
+    }
+    
+    .iconMenu .depth3 > a{
+        color: #777;
+        margin-bottom: 10px;
+    }
+    .iconMenu > div{
+        font-size: 24px;
+        font-weight: 800;
+        color: #222;
+    }
+    .iconMenu .login{
+        font-size: 12px;
+        color: #555;
+        margin: 20px 0;
+    }
+    .iconMenu .login a{
+        color: #0066cc;
+        text-decoration: underline;
+    }
+    .headIn{
+        width: 70vw;
+        margin: 0 auto;
+    }
+    
+    .menu .depth2{
+        display: none;
+        z-index: 300;
+        width: 100%;
+        background-color: #fff;
+        position: fixed;
+        top: 44px;
+        left: 0;
+    }
+    .menu .depth2 > ul{
+        display: flex;
+        width: 1024px;
+        margin: 0 auto;
+        
+    }
+    .menu .depth2 > ul > li{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 45px;
+    }
+    .menu .depth2 > ul > li > a{
+        padding: 30px 0 18px 0;
+    }
+    
+    .menu .depth2 > ul > li:first-child ul a{
+        font-size: 20px;
+        font-weight: 800;
+    
+    }
+    .menu .depth2 > ul > li:first-child ul li{
+        padding-right: 35px;
+    }
+    .menu .depth3{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu .depth3 li{
+        padding-bottom: 18px;
+    }
+    .menu .depth3 li:last-child{
+        padding-bottom: 80px;
+    }
+    .menu .depth3 a{
+        font-size: 10px;
+        font-weight: 800;
+        color: #111;
+    }
+    .iconMenu div a{
+        font-size: 19px;
+    }
+    
+    .menu{
+        display: block;
+    }
+    .menu > ul{
+        display: flex;
+
+    }
+    .menu > ul > li{
+        margin: 0 22px;
+    }
+    .menu a{
+        color: #555;
+        font-weight: 500;
+        font-size: 12px;
+        padding-bottom: 13px;
+    }
+    .menu > ul > li > a:hover{
+        color: #222;
+    }
+    
+    .topBn{
+        padding-bottom: 30px;
+    }
+    .bnTitle{
+        font-size: 44px;
+        padding-top: 120px;
+    }
+    .bnIn{
+        position: relative;
+        padding-right: 400px;
+    }
+    .cardList{
+        padding-top: 80px;
+        width: 100%;
+        max-width: 1440px;
+    }
+    .cardList a {
+        font-size: 14px;
+    }
+    .cardList p:hover{
+        text-decoration: underline;
+    }
+    .service{
+        position: absolute;
+        right: 0;
+        top: 135px;
+    }
+    .topBn, .m1List, .main2, .main3, .main4, .main5{
+        padding-bottom: 30px;
+    }
+    .Title{
+        font-size: 24px;
+    }
+    .name{
+        font-size: 12px;
+    }
+    .txt1{
+        font-size: 24px;
+    }
+    .price{
+        font-size: 16px;
+    }
+    .m1List .m1card{
+        border-radius: 20px;
+        display: block;
+        overflow: hidden;
+        width: 450px;
+        height: 500px;
+        position: relative;
+    }
+    .m1List > div{
+        position: relative;
+        
+    }
+
+    .m1Txt{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 28px 28px 28px 48px;
+    }
+    .m1Txt.nonew{
+        padding-top: 46px;
+    }
+    .m1new{
+        font-size: 12px;
+        font-weight: 800;
+        color: #555;
+    }
+    .name{
+        font-size: 28px;
+        color: #222;
+        line-height: 1.5em;
+        font-weight: 600;
+    }
+    .txt1{
+        font-size: 5.5vw;
+        font-weight: 600;
+        color: #222;
+        line-height: 1.5em;
+    }
+    .price{
+        font-size: 17px;
+        color: #222;
+        line-height: 1.5em;
+    }
+    .m1In{
+         position: relative;
+    }
+    .m1Txt{
+        padding: 20px 20px 1px 50px;
+    }
+    .m1List{
+        width: 100%;
+    }
+    .first{
+        background-color: #fff;
+        position: relative;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    .first img{
+        width: 100%;
+        height: auto;
+    }
+    .first .m2Txt{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .m2List .m22{
+        width: 400px;
+        height: 500px;
+        background-color: #ffffff;
+        border-radius: 20px;
+    }
+    .m2Photo img{
+        padding-top: 150px;
+    }
+    .m2Txt{
+        padding: 30px 30px 16px;
+    }
+    .m2Txt .Title_mini{
+        color: red;
+        font-size: 12px;
+        font-weight: 800;
+    }
+
+    .m2Txt .name{
+        font-size: 17px;
+        color: #222;
+    }
+
+    .m22 .m2p2 img{
+        width: 288.5px;
+        height: auto;
+        
+    }
+    .m22 .m2p3 img{
+        width: 334.86px;
+        height: auto;
+    }
+    .m22 .m2p4 img{
+        width: 295px;
+        height: auto;
+    }
+    .m22 .m2p5 img{
+        width: 285px;
+        height: auto;
+    }
+    .m22 .m2p6 img{
+        width: 240px;
+        height: auto;
+    }
+    .dots ul{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+    .dots li{
+        width: 12px;
+        margin-right: 6px;
+    }
+    .dots li img{
+        width: 100%;
+        height: auto;
+    }
+    .m2buy{
+        padding: 0 30px 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .m2buy .price{
+        font-size: 14px;
+        padding-top: 16px;
+    }
+    .m2buy .bTxt{
+        font-size: 17px;
+        color: #fff;
+        padding: 7px 15px;
+        background-color: #0066cc;
+        border-radius: 40px;
+    }
+    .btns button{
+        position: absolute;
+        background-color: rgba(119, 119, 119, 0.1);
+        border-radius: 50%;
+        text-align: center;
+        padding: 20px;
+        top: 290px;
+    }
+    .prev i, .next i{
+        display: block;
+        width: 10px;
+        height: 10px;
+        border-top:3px solid #fff;
+        border-right:3px solid #fff;
+        color: transparent;
+        margin: 0 auto;
+    }
+    .prev{
+        left: 10px;
+    }
+    .prev i{
+        transform: rotate(-135deg);
+    }
+    .next {
+        right: 10px;
+    }
+    .next i{
+        transform: rotate(45deg);
+    }
+    
+    .m1List .m1card{
+        transition: 0.5s;
+    }
+    .m1List .m1card:hover{
+        transform: scale(1.01);
+    }
+    .m2List .m2card{
+        transition: 0.5s;
+    }
+    .m2List .m2card:hover{
+        transform: scale(1.01);
+    }
+    .m3List .first{
+        width: 400px;
+        padding: 0;
+        position: relative;
+    }
+    .m3List .first img{
+        width: 400px;
+        height: 500px;
+        padding: 0;
+    }
+    .m3Intitle{
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 28px;
+        color: #222;
+        font-weight: 800;
+        line-height: 1.5em;
+        padding: 30px;
+    }
+    .m3List li{
+        width: 313px;
+        height: 439px;
+        background-color: #fff;
+        border-radius: 20px;
+        padding: 0;
+    }
+    .m3Txt{
+        padding: 0 30px 30px 30px;
+        line-height: 1.5em;
+    }
+    .m3Txt .free{
+        font-size: 12px;
+        color: #bf4800;
+    }
+    .m3Txt .name{
+        font-size: 17px;
+        color: #222;
+    }
+    .m3Txt .price{
+        padding-top: 40px;
+        font-size: 14px;
+        color: #222;
+    }
+    .m3photo img{
+        margin: 0 auto;
+        padding: 71px 30px 60px 30px;
+    }
+    .m3List .m3card{
+        transition: 0.5s;
+    }
+    .m3List .m3card:hover{
+        transform: scale(1.01);
+    }
+    .m4List .m4photo{
+        transition: 0.5s;
+        padding: 0;
+    }
+    .m4List .m4photo:hover{
+        transform: scale(1.01);
+    }
+    .m5List .m5card{
+        transition: 0.5s;
+    }
+    .m5List .m5card:hover{
+        transform: scale(1.01);
+    }
+    .m3List{
+        width: 120%;
+    }
+    .m4List ul{
+        width: 120%;
+    }
+    .m5List ul{
+        width: 100%;
+    }
+    .fTxt .ft1{
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+    .first .ft2{
+        font-size: 16px;
+    }
+    .new{
+        font-size: 12px;
+    }
+    .itname{
+        font-size: 16px;
+    }
+    .itprice{
+        font-size: 14px;
+    }
+    .fTxt{
+        padding: 20px 20px 0 50px;
+        line-height: 0.5em;
+    }
+    .itTxt{
+        padding: 1px 35px 20px 20px;
+    }
+    .tag, .tag.black, .m5txt .tag{
+        font-size: 12px;
+    }
+    .m4t, .m5t{
+        font-size: 24px;
+    }
+    .m4txt{
+        padding: 30px;
+        line-height: 1.5em;
+    }
+    .m4txt2{
+        padding: 35px 20px 0 50px;
+        font-size: 24px;
+    }
+    .m4t22{
+        font-size: 14px;
+        padding-top: 20px;
+    }
+    .m5txt{
+        padding: 30px 30px 0px 30px;
+        line-height: 1.5em;
+    }
+    .linkTitle{
+        font-size: 24px;
+    }
+    .linkList li a{
+        font-size: 14px;
+        padding: 7px 15px;
+    }
+  
+    .f_f1 .f_list{
+        font-size: 11px;
+    }
+    .f_f2 .appleLink a{
+        padding-right: 20px;
+    }
+    .fTap{
+        display: flex;
+        justify-content: space-between;
+    }
+    .tapIt{
+        border-bottom: 0;
+    }
+    .tapList{
+        display: block;
+    }
+    h3{
+        font-size: 11px;
+        color: #222;
+        font-weight: 600;
+    }
+    .tapList li a{
+        font-size: 11px;
+        color: 11px;
+        font-weight: 300;
+        color: #555;
+    }
+    .f_f{
+        font-size: 11px;
+    }
+    .f_fIn{
+        font-size: 11px;
+        display: flex;
+        position: relative;
+        text-align: center;
+        padding-top: 8px;
+        border-top: 1px solid rgba(173, 173, 173, 0.357)
+    }
+    .f_fIn div{
+        margin-left: 30px;
+    }
+    .f_f li a{
+        font-size: 11px;
+        padding: 0 5px;
+    }
+    .korea{
+        position: absolute;
+        right: 0;
+    }
+    
+}
+
