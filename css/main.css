@@ -87,9 +87,7 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.icM_in > ul > li{
-    
-}
+
 .icM_in > ul > li > div{
     width: 48px;
     
@@ -120,6 +118,9 @@ body{
 .bnCard{
     overflow: hidden;
     padding: 0 21px 22px 21px;
+}
+.slick-track{
+    overflow: unset;
 }
 .cardList{
     width: 260%;
@@ -170,6 +171,7 @@ body{
     margin-left: -62px;
 }
 .m1List .slick-slide{
+    margin-top: 1vw;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -241,6 +243,7 @@ body{
     color: #fff;
 }
 .m2List .slick-slide{
+    margin-top: 1vw;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -339,7 +342,7 @@ body{
     line-height: 1.3em;
 }
 .m3List .slick-slide{
-    margin: 0 10px;
+    margin: 1vw 10px 0 10px;
 }
 .m3card{
     width: 309px;
@@ -350,6 +353,7 @@ body{
 
 }
 .main3 .first{
+    margin-top: 30px;
     position: relative;
 }
 .first .m3photo img{
@@ -396,7 +400,7 @@ body{
     margin-top: -20px;
 }
 .m4List .slick-slide{
-    margin: 0 10px;
+    margin: 1vw 10px 0 10px;
 }
 .tag{
     font-size: 12px;
@@ -436,7 +440,7 @@ body{
     line-height: 1.5em;
 }
 .m5List .slick-slide{
-    margin: 0 10px;
+    margin: 1vw 10px 0 10px;
 }
 .m5card{
     position: relative;
@@ -730,12 +734,12 @@ h3{
         padding-bottom: 7vw;
     }
     .link{
-        padding-bottom: 6vw;
+        padding-bottom: 3vw;
     }
     .linkTitle{
         font-size: 3vw;
         padding-left: 2.5vw;
-        padding-bottom: 4vw;
+        padding-bottom: 2vw;
     }
     .linkList ul{
         width: 100%;
